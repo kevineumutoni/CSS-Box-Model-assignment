@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- This is the style of the welcome to our community part  -->
+        <div class="welcome">
+            <h1>Welcome to our community!</h1>
+            <img src="images/Image_for_login.jpg" id="image"> 
+        </div>
+        <!-- A div that will hold the create account part -->
+        <div class="account-creation">
+            <h2>Create Account</h2>
+            <p class="sign-up">sign up to your account below.</p>
+            <form>
+                <!-- Section for creating a first name and last name in Flex display. -->
+                <div class="first">
+                    <div>
+                        <label for="Fname">First Name</label><br><br>
+                        <input type="text"  id="Fname" required name="Fname" placeholder="    |"><br>
+                    </div>
+                    <!-- This is a last name section to help me do display flex -->
+                    <div>
+                        <label for="Lname">Last Name</label><br><br>
+                        <input type="text" id="Lname" name="Lname" placeholder="   |"> 
+                        <br><br>
+                    </div>
+                </div>
+                <!-- creating the email address label and input -->
+                <label for="email">Email Address</label><br><br>
+                <input type="email" id="email" name="email" required placeholder="         |">
+                <br><br>
+                <!-- Creating password label -->
+                <label for="password">Password</label><br><br>
+                <input type="password" name="password" id="password" required placeholder="         |">
+                <br><br>
+                <!-- Confirming password -->
+                <label for="Confirm_password">Confirm Password</label><br><br>
+                <input type="password"  id="Confirm-password" required placeholder="        |"> <br><br>
+                <!-- button for creating account -->
+                <button id="button">Create Account</button>
+                <!-- already have account class -->
+                <p class="already-account">Already have an account? <a href="https://shorturl.at/Oy1wn" target="_blank" id="signing-in">Sign In</a></p>
+                <!-- the line under already have an account -->
+                <div class="line">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                  </div>
+
+            </form>
+            <!-- this is for navigation icons  -->
+            <div class="icons">
+                <a href="https://shorturl.at/in9aY" target="_blank"><img src="https://static.cdnlogo.com/logos/g/35/google-icon.svg" id="google"></a>
+                <a href="https://www.facebook.com/login/" target="_blank" class="fa fa-facebook" id="facebook"></a>
+                <a href="https://www.icloud.com/" target="_blank" class="fa fa-apple" id="apple"></a>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>

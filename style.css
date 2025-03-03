@@ -1,0 +1,178 @@
+/* 
+This is the style for the whole page
+*/
+body{
+    margin-left: 120px;
+    position: absolute;
+    padding-top: 50px;
+    background-color: rgb(244, 231, 255);
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* 
+This is the style for the only header saying Welcome to the community
+*/
+
+h1{
+    color: rgb(166, 102, 226);
+    font-size: 50px;
+    margin-left: 100px;
+    font-weight:200px;
+    width: 400px;
+
+}
+/* 
+This is the style for the image under header
+*/
+#image{
+    width: 80%;
+    height: 70%;
+
+    
+}
+
+/* 
+This is the style for the div to separate 2 parts of the page
+*/
+.container{
+    display: flex;
+}
+/* 
+This is the style for the div of only(left part) welcome to our community and its image
+*/
+.welcome{
+    border-right: 2px solid rgb(240, 179, 240);
+    width: 50%;
+    margin-right: 50px;
+}
+/* 
+This is the style for the first and last name
+*/
+.first{
+    display: flex;
+    gap: 60px;
+}
+/* 
+This is the style for the inputs or the boxes in the form
+*/
+input{
+    width:300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1.2px solid rgb(219, 211, 211);
+}
+/* 
+This is the style for the sign-up word on button
+*/
+.sign-up{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* 
+This is the style for the  only email width
+*/
+#email{
+    width:100%
+}
+/* 
+This is the style for the  password input 
+*/
+#password{
+    width: 100%;
+}
+/* 
+This is the style for the confirm password input
+*/
+#Confirm-password{
+    width: 100%
+}
+/* 
+This is the style for the button
+*/
+#button{
+    background-color: rgb(106, 62, 148);
+    color: white;
+    width:101.5%;
+    height:40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+   
+}
+#button:hover{
+    background-color: rgb(12, 204, 238);
+}
+
+/* 
+This is the style for the sign in inside a button 
+*/
+#signing-in{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* 
+This is the style for the text under button
+*/
+.already-account{
+    text-align: center;
+    margin-top: 40px;
+}
+/* 
+This are the styles for the specific icon
+*/
+#facebook{
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
+    justify-content: center;
+    align-content: center;
+    
+   
+
+ 
+}
+#google{
+    margin-left: 200px;
+    justify-content: center;
+    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
+    width: 50px;
+    height: 30px;
+
+}
+#apple{
+    color: black;
+    font-size: 30px;
+    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
+    text-decoration: none;
+    
+
+}
+/* 
+This is the style for the icons navigation.
+*/
+.icons{
+    display: flex;
+    gap: 90px;
+    margin-top: 20px;
+}
+/* 
+This is the style for the line which has or
+*/
+.line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px; 
+  }
+  .line hr {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px solid #ccc; 
+  }
+  .line span {
+    padding: 0 10px; 
+  }
