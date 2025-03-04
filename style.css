@@ -8,6 +8,7 @@ body{
     background-color: rgb(244, 231, 255);
     margin-right: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 
 }
 /* 
@@ -15,15 +16,16 @@ This is the style for the only header saying Welcome to the community
 */
 
 h1{
-    color: rgb(166, 102, 226);
-    font-size: 50px;
-    margin-left: 100px;
+    color: rgb(170, 115, 223);
+    font-size: 55px;
     font-weight:200px;
-    width: 400px;
+    padding: 20px;
+   
+  
 
 }
 /* 
-This is the style for the image under header
+This is the style for the image under header #A050B0 #F5E9FF
 */
 #image{
     width: 80%;
@@ -92,7 +94,7 @@ This is the style for the confirm password input
 This is the style for the button
 */
 #button{
-    background-color: rgb(106, 62, 148);
+    background-color: rgb(162, 100, 221);
     color: white;
     width:101.5%;
     height:40px;
@@ -127,9 +129,10 @@ This are the styles for the specific icon
 #facebook{
     text-decoration: none;
     font-size: 30px;
-    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
     justify-content: center;
     align-content: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
     
    
 
@@ -138,17 +141,18 @@ This are the styles for the specific icon
 #google{
     margin-left: 200px;
     justify-content: center;
-    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
     width: 50px;
     height: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
 
 }
 #apple{
     color: black;
     font-size: 30px;
-    box-shadow: rgb(219, 214, 214) 2px 4px 4px 2px;
     text-decoration: none;
-    
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
 
 }
 /* 
@@ -156,7 +160,7 @@ This is the style for the icons navigation.
 */
 .icons{
     display: flex;
-    gap: 90px;
+    gap: 60px;
     margin-top: 20px;
 }
 /* 
@@ -176,3 +180,27 @@ This is the style for the line which has or
   .line span {
     padding: 0 10px; 
   }
+  /* 
+This is for styling an eye container*/
+
+  .password-eye {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+/* 
+This is for styling an eye inside a box on password*/
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    user-select: none;
+    pointer-events: none; 
+}
+
+.account-creation{
+    margin-top: 0;
+}
+
